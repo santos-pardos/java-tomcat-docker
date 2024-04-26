@@ -1,4 +1,22 @@
-
+# Docker
+```
+cd java-tomcat-docker/container-apache-tomcat-web-server-sample
+```
+```
+FROM library/tomcat
+EXPOSE 8080
+COPY ./ApacheTomcat /usr/local/tomcat
+```
+```
+docker build . -t tomcattest
+docker images
+docker run -itd --name tomcat-site -p 8080:8080 tomcattest.
+```
+```
+http://public-ip:8080/hello
+http://public-ip:8080/hello/sayhello
+http://public-ip:8080/hello/sayhi
+```
 
 # Apache Tomcat Web Server Sample
 
