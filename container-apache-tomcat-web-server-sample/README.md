@@ -1,6 +1,8 @@
+
+
 # Apache Tomcat Web Server Sample
 
-This sample contains an Apache Tomcat Web server that hosts a simple Java application. This entire web server is then packaged up and deployed as a container. The instructions on how to use this sample are in the following [article]().
+This sample contains an Apache Tomcat Web server that hosts a simple Java application. This entire web server is then packaged up and deployed as a container.
 
 ## Contents 
 
