@@ -1,3 +1,3 @@
 ## Sample
 
-http://public-ip:8080/helloworld
+http://public-ip:8080/sample
