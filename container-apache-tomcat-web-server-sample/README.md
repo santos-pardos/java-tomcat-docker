@@ -17,6 +17,10 @@ http://public-ip:8080/hello
 http://public-ip:8080/hello/sayhello
 http://public-ip:8080/hello/sayhi
 ```
+```
+docker stop tomcat-site
+docker rm tomcat-site
+```
 
 # Apache Tomcat Web Server Sample
 
