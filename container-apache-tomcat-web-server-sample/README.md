@@ -10,7 +10,7 @@ COPY ./ApacheTomcat /usr/local/tomcat
 ```
 docker build . -t tomcattest
 docker images
-docker run -itd --name tomcat-site -p 8080:8080 tomcattest.
+docker run -itd --name tomcat-site -p 8080:8080 tomcattest
 ```
 ```
 http://public-ip:8080/hello
