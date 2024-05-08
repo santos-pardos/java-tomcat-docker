@@ -2,8 +2,8 @@
 ---
 sudo yum install java-17-amazon-corretto-devel–y
 java–version
-
-
+---
+---
 wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz
 sudo tar xvf apache-maven-3.9.4-bin.tar.gz -C /opt
 sudo ln -s /opt/apache-maven-3.9.4 /opt/maven
@@ -13,7 +13,7 @@ sudo vi /etc/profile.d/maven.sh
 sudo chmod +x /etc/profile.d/maven.sh
 source /etc/profile.d/maven.sh
 mvn -versio
-
+---
 
 ---
 page_type: sample
