@@ -1,3 +1,20 @@
+# Install Java and Maven
+---
+sudo yum install java-17-amazon-corretto-devel–y
+java–version
+
+
+wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz
+sudo tar xvf apache-maven-3.9.4-bin.tar.gz -C /opt
+sudo ln -s /opt/apache-maven-3.9.4 /opt/maven
+sudo vi /etc/profile.d/maven.sh
+    export M2_HOME=/opt/maven
+    export PATH=${M2_HOME}/bin:${PATH}
+sudo chmod +x /etc/profile.d/maven.sh
+source /etc/profile.d/maven.sh
+mvn -versio
+
+
 ---
 page_type: sample
 description: "This sample contains a set of projects to help you get started with Service Fabric on Linux using Java as the development language."
