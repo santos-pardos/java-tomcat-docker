@@ -1,5 +1,9 @@
 # Java Microservice
 Build an Spring Boot Java Microservice, Dockerize, and Deploy to Kubernetes Cluster
+
+## Link
+https://medium.mohsinrubel.com/project-7-build-an-spring-boot-java-microservice-dockerize-and-deploy-to-kubernetes-cluster-d88b03157c2d
+
 ## Prerequisites:
 
 Install Java Development Kit (JDK), Maven, Docker, and Kubernetes on your local development machine.
