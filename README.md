@@ -15,7 +15,7 @@ source /etc/profile.d/maven.sh
 mvn -versio
 ---
 
----
+
 page_type: sample
 description: "This sample contains a set of projects to help you get started with Service Fabric on Linux using Java as the development language."
 languages:
@@ -23,7 +23,7 @@ languages:
 products:
 - azure
 - azure-service-fabric
----
+
 
 # Get started using Azure Service Fabric with Java
 
