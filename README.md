@@ -25,7 +25,8 @@ products:
 - azure
 - azure-service-fabric
 
-##  Dockerizing Angular App With Java Backend
+##  Other links
+### Dockerizing Angular App With Java Backend
 ```
 https://blog.bitsrc.io/dockerizing-angular-app-with-java-backend-fedb96919bc9
 https://github.com/bbachi/angular-java-docker
