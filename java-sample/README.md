@@ -13,6 +13,8 @@ http://public-ip:8080/sample
 If you just want to browse the contents, you can unpack the war file with the jar command.
 
         jar -xvf sample.war
+
+## Example Java App
 ```
 docker container run -d -p 8080:8080 tomcat:8.5.47-jdk8-openjdk
 ```
