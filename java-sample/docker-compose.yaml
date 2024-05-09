@@ -1,0 +1,7 @@
+version: '3'
+services:
+  webapp:
+    image: my-java-app
+    build: .
+    ports:
+      - "8080:8080"
