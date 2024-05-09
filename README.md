@@ -25,7 +25,11 @@ products:
 - azure
 - azure-service-fabric
 
-
+##  Dockerizing Angular App With Java Backend
+```
+https://blog.bitsrc.io/dockerizing-angular-app-with-java-backend-fedb96919bc9
+https://github.com/bbachi/angular-java-docker
+```
 # Get started using Azure Service Fabric with Java
 
 This repository contains a set of simple sample projects to help you getting started with Azure Service Fabric on Linux using Java as the development language.
