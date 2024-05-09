@@ -2,6 +2,7 @@
 ```
 https://tecadmin.net/deploy-java-war-docker/
 https://tomcat.apache.org/tomcat-10.0-doc/appdev/sample/
+https://www.cirruslabs.io/blog1/modernized-technology/how-to-dockerize-an-web-application
 
 docker build -t my-java-app .
 docker run -d -p 8080:8080 my-java-app
