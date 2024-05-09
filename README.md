@@ -14,7 +14,7 @@ sudo vi /etc/profile.d/maven.sh
 ```
 sudo chmod +x /etc/profile.d/maven.sh
 source /etc/profile.d/maven.sh
-mvn -versio
+mvn -version
 ```
 
 page_type: sample
