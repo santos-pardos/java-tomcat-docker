@@ -1,6 +1,7 @@
 # Install Java and Maven
 ```
 sudo yum install java-17-amazon-corretto-devel–y
+sudo yum install java-21-amazon-corretto-devel
 java–version
 ```
 ```
