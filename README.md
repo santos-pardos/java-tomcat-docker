@@ -17,6 +17,12 @@ source /etc/profile.d/maven.sh
 mvn -version
 ```
 
+```
+WEB-INF
+jar -cvf projectname.war *  
+jar -xvf projectname.war  or unzip projectname.war
+```
+
 page_type: sample
 description: "This sample contains a set of projects to help you get started with Service Fabric on Linux using Java as the development language."
 languages:
